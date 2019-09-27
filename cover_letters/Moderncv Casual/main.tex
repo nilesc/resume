@@ -1,0 +1,79 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Niles}{Christensen}
+% \title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{740 Berkeley Ave}{Menlo Park}{CA, 94025}
+\phone[mobile]{+1~(650)~714~3983}                   % optional, remove / comment the line if not wanted
+\email{nilesnchristensen@gmail.com}                               % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{AI@X Residency Team}{100 Mayfield Ave.\\Mountain View\\CA}
+\date{September 27, 2019}
+\opening{To whom it may concern,}
+\closing{Thank you for your consideration,}
+\makelettertitle
+I'm writing this letter to ask to be considered for the AI@X residency program for this summer.
+
+I believe that I am a strong candidate for this program. I completed my undergraduate in
+Computer Science with a focus on Intelligent Systems at Columbia this past Spring, and am
+currently enrolled in Carnegie Mellon's Master's of Machine Learning program. In addition to
+my coursework, I have firsthand ML experience on a number of different projects, such that I
+am comfortable both taking the lead on a new project and efficiently onboarding to an existing
+one. As such, I'll be able to hit the ground running, no matter the task.
+
+Furthermore, I have interned at Loon twice, including when it was still a part of X. Because of this, I know
+what it's like to work at X, and understand the skills required to succeed there. The problems
+X sets out to face are unique, and require a specific way of thinking well-encapsulated in X's tenets
+(cutting the Gordian knot, starting with the monkey, etc.). I am also familiar with many of Alphabet's
+unique internal tools and infrastructure, minimizing the difficulty of onboarding.
+
+Working at and around X, I have come to have an appreciation for the importance of X's mission. All of X's
+projects can tangibly better the world, and in many cases, already have. More than the specific projects,
+the philosophy of automating innovation is a key insight that will ensure that breakthroughs continue
+to happen so long as it is properly upheld. I can think of no place more exciting to work, and I hope
+to be able to contribute to this incredibly valuable mission.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
