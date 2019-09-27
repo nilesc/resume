@@ -3,8 +3,8 @@ I'm writing this letter to ask to be considered for the AI@X residency program f
 
 I believe that I am an ideal candidate for this program. I completed my undergraduate in
 Computer Science with a focus on Intelligent Systems at Columbia this past Spring, and am
-currently enrolled in Carnegie Mellon's Masters of Machine Learning program. In addition to
-my coursework, I have firsthand ML experience on a number of diffrent projects, giving me
+currently enrolled in Carnegie Mellon's Master's of Machine Learning program. In addition to
+my coursework, I have firsthand ML experience on a number of different projects, giving me
 experience both taking the lead on a new project and efficiently onboarding to an existing
 one. As such, I'll be able to hit the ground running, no matter the task.
 
