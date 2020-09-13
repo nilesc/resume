@@ -19,7 +19,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4
 
 \begin{document}
 
@@ -45,9 +45,9 @@
 % Education
 %------------------------------------------------
 
-\section{Education} 
+\section{Education}
 
-\subsection{Carnegie Mellon University}
+\subsection{Carnegie Mellon}
 
 \descript{MS in Machine Learning}
 \location{Expected Dec 2020 | Pittsburgh, PA \\ Cum. GPA: N/A}
@@ -75,7 +75,7 @@ Dean's List 6 Semesters\\
 % Links
 %------------------------------------------------
 
-\section{Links} 
+\section{Links}
 
 Github:// \href{https://github.com/nilesc}{\bf nilesc} \\
 LinkedIn:// \href{https://www.linkedin.com/in/niles-christensen}{\bf niles-christensen} \\
@@ -122,7 +122,7 @@ Unix Tools and Scripting
 
 \location{Over 5000 lines:}
 Java \textbullet{} Shell \textbullet{} JavaScript \textbullet{} Matlab \\
-OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\
 \location{Over 1000 lines:}
 C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
 \location{Familiar:}
@@ -145,15 +145,19 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 % Experience
 %------------------------------------------------
 
-\section{Experience}
+\section{Industry Experience}
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern}
+\runsubsection{Loon (Google X)}
+\descript{| Software Engineering Intern}
 
-\location{Expected June 2014 – Sep 2014 | Mountain View, CA}
+\location{Summers 2018, 2019, 2020 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+    \item Created automated systems to gather data on connections in Loon’s networks
+    \item Made improvements to Loon's altitude- and wind-based balloon steering
+    \item Created visualizations to better understand outcomes of complex simulations
+    \item Added infrastructure to allow for black-box optimization of fleet performance
+    \item Improved a Reinforcement Learning model (details currently secret)
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -163,25 +167,34 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \runsubsection{Google}
 \descript{| Software Engineering Intern}
 
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\location{Summer 2017 | Mountain View, CA}
 \begin{tightitemize}
-\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.
-\item Created a backbone.js-like framework for the Captions editor.
-\item All code was reviewed, perfected, and pushed to production.
+    \item Created an interface for AdWords critical to the process of signing up large companies and securing their contracts
+    \item Worked closely with Billing and User Management teams
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
+\runsubsection{Brain of Things}
+\descript{| Intern}
 
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\location{Summer 2016 | Redwood City, CA}
 \begin{tightitemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
-\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.
-\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+    \item Implemented features to adjust a smart home's lighting colors to reflect the color palette of an image sent via text message to the house
+    \item Developed an alarm feature that used hardware installed in the house to wake up users at a time of their choosing through curtains opening and lights turning on
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{SocialSquare}
+\descript{| Developer and Advisor}
+
+\location{Fall 2014 - Spring 2015 | Copenhagen, Denmark}
+\begin{tightitemize}
+    \item Created a Django website to connect runners and sponsors for charity events, and automatically charge sponsors based on distances run by the runners
+    \item Designed a low-cost system to track the location of handball players on a court to allow for better analytics and commentary on games in real time
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -190,63 +203,96 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 % Research
 %------------------------------------------------
 
-\section{Research}
+\section{Academic Experience}
 
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Head Undergrad Research}
+\runsubsection{Research Assistant for Prof.\ Fragkiadaki}
+\descript{CMU}
 
-\location{Jan 2014 – Present | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments. Publication submitted.
+\location{Fall 2019 – Present | Pittsburgh, PA}
+\begin{tightitemize}
+  \item Working on project to improve Geometrically Aware Recurrent Neural Nets, which reason about vision in a 3D ``imagination'' space
+  \item Working on building a SLAM system to efficiently calculate 6D egomotion between frames
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Research Assistant for Prof.\ Vondrick}
+\descript{Columbia University}
+
+\location{Spring 2019 | New York, NY}
+\begin{tightitemize}
+    \item Adapated an existing optical flow pyramid network to a video colorization task
+    \item Made changes allowing for greatly simplified structure tuning and improved readability
+\end{tightitemize}
 
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
+\runsubsection{Project with Prof.\ Vondrick}
+\descript{Columbia University}
 
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
-
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
-% Awards
-%------------------------------------------------
-
-\section{Awards} 
-
-\begin{tabular}{rll}
-2014	 & top 52/2500 & KPCB Engineering Fellow\\
-2014	 & 2\textsuperscript{nd} most points & Google Code Jam, Qualification Round\\
-2014	 & 1\textsuperscript{st}/50 & Microsoft Coding Competition, Cornell\\
-2013	 & National & Jump Trading Challenge Finalist\\
-2013 & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament \\
-2012 & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011 & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-2010 & National & Comp. Soc. of India's National Programming Contest\\
-\end{tabular}
+\location{Spring 2019 | New York, NY}
+\begin{tightitemize}
+  \item Built a class project with 2 classmates that leverages tree-structured debate data to retrain existing seq2seq models to respond to a debate prompt
+  \item Worked closely with Prof.\ Drori afterward to further refine model and compare results to human debaters through Mechanical Turk
+  \item Included in 14th Annual Machine Learning Symposium at New York Academy of Sciences
+\end{tightitemize}
 
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
-% Societies
-%------------------------------------------------
 
-\section{Societies} 
+\runsubsection{Teaching Assistant}
+\descript{Columbia University}
 
-\begin{tabular}{rll}
-2014 & top 12\%ile & Tau Beta Pi Engineering Honor Society\\
-2014 & National & The Global Leadership and Education Forum (tGELF)\\
-2012 & National & Golden Key International Honor Society\\
-2012 & National & National Society of Collegiate Scholars\\
-\end{tabular}
+\location{Spring 2017 - Spring 2019 | New York, NY}
+\begin{tightitemize}
+    \item Fundamentals of Computer Science, held weekly seminars in addition to course administration
+\end{tightitemize}
 
 \sectionspace % Some whitespace after the section
 
-%----------------------------------------------------------------------------------------
 
-\end{minipage} % The end of the right column
+% %------------------------------------------------
+% % Awards
+% %------------------------------------------------
+%
+% \section{Awards}
+%
+% \begin{tabular}{rll}
+% 2014	 & top 52/2500 & KPCB Engineering Fellow\\
+% 2014	 & 2\textsuperscript{nd} most points & Google Code Jam, Qualification Round\\
+% 2014	 & 1\textsuperscript{st}/50 & Microsoft Coding Competition, Cornell\\
+% 2013	 & National & Jump Trading Challenge Finalist\\
+% 2013 & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament \\
+% 2012 & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+% 2011 & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+% 2010 & National & Comp. Soc. of India's National Programming Contest\\
+% \end{tabular}
+%
+% \sectionspace % Some whitespace after the section
+%
+% %------------------------------------------------
+% % Societies
+% %------------------------------------------------
+%
+% \section{Societies}
+%
+% \begin{tabular}{rll}
+% 2014 & top 12\%ile & Tau Beta Pi Engineering Honor Society\\
+% 2014 & National & The Global Leadership and Education Forum (tGELF)\\
+% 2012 & National & Golden Key International Honor Society\\
+% 2012 & National & National Society of Collegiate Scholars\\
+% \end{tabular}
+%
+% \sectionspace % Some whitespace after the section
+%
+% %----------------------------------------------------------------------------------------
+%
+% \end{minipage} % The end of the right column
 
 %----------------------------------------------------------------------------------------
 %	SECOND PAGE (EXAMPLE)
