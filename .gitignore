@@ -246,3 +246,5 @@ TSWLatexianTemp*
 *.dat
 *.png
 .python-version
+
+cover_letters/
